@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Ödeme Başlığı Giriniz"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Ödeme içeriğini giriniz\n\n\n\n\n\n\n\n"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/editText11"
+        app:layout_constraintStart_toStartOf="@+id/editText11"
+        app:layout_constraintTop_toBottomOf="@+id/editText11" />
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Ödeme Tutarını Giriniz"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/editText18"
+        app:layout_constraintStart_toStartOf="@+id/editText18"
+        app:layout_constraintTop_toBottomOf="@+id/editText18" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Ödeme Oluştur"
+        app:layout_constraintEnd_toEndOf="@+id/editText19"
+        app:layout_constraintStart_toStartOf="@+id/editText19"
+        app:layout_constraintTop_toBottomOf="@+id/editText19" />
+</android.support.constraint.ConstraintLayout>

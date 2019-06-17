@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="İşlem Seçiniz">
+        <menu>
+            <item
+                android:id="@+id/denetleyici_odemeler"
+                android:icon="@drawable/menu_dues"
+                android:title="Ödemeler" />
+            <item
+                android:id="@+id/denetleyici_yonetici"
+                android:icon="@drawable/menu_guest"
+                android:title="Yönetici" />
+            <item
+                android:id="@+id/denetleyici_complaint"
+                android:icon="@drawable/menu_complaint"
+                android:title="Şikayet" />
+        </menu>
+    </item>
+
+</menu>

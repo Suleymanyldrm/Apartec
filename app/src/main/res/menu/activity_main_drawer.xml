@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="İşlem Seçiniz">
+        <menu>
+            <item
+                android:id="@+id/homepage"
+                android:icon="@drawable/menu_home"
+                android:title="Anasayfa" />
+            <item
+                android:id="@+id/info"
+                android:icon="@drawable/menu_info"
+                android:title="Bilgilerim" />
+            <item
+                android:id="@+id/property"
+                android:icon="@drawable/menu_property"
+                android:title="Mülkler" />
+            <item
+                android:id="@+id/users"
+                android:icon="@drawable/menu_users"
+                android:title="Kullanıcılar" />
+            <item
+                android:id="@+id/notice"
+                android:icon="@drawable/menu_notice"
+                android:title="Duyurular" />
+            <item
+                android:id="@+id/dues"
+                android:icon="@drawable/menu_dues"
+                android:title="Aidat" />
+            <item
+                android:id="@+id/pay"
+                android:icon="@drawable/pay_btn"
+                android:title="Ödemeler" />
+            <item
+                android:id="@+id/guest"
+                android:icon="@drawable/menu_guest"
+                android:title="Misafir" />
+            <item
+                android:id="@+id/complaint"
+                android:icon="@drawable/menu_complaint"
+                android:title="Şikayet" />
+        </menu>
+    </item>
+
+</menu>

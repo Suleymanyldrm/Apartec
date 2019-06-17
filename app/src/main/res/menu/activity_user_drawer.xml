@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="İşlem Seçiniz">
+        <menu>
+            <item
+                android:id="@+id/homepage"
+                android:icon="@drawable/menu_home"
+                android:title="Anasayfa" />
+            <item
+                android:id="@+id/user_info"
+                android:icon="@drawable/menu_info"
+                android:title="Bilgilerim" />
+            <item
+                android:id="@+id/user_property"
+                android:icon="@drawable/menu_property"
+                android:title="Mülklerim" />
+            <item
+                android:id="@+id/user_notice"
+                android:icon="@drawable/menu_notice"
+                android:title="Duyurular" />
+            <item
+                android:id="@+id/user_complaint"
+                android:icon="@drawable/menu_complaint"
+                android:title="Şikayet" />
+            <item
+                android:id="@+id/user_dues"
+                android:icon="@drawable/menu_dues"
+                android:title="Aidat" />
+           <!-- <item
+                android:id="@+id/user_payment"
+                android:title="Ödemeler"
+                android:icon="@drawable/pay_btn" /> -->
+        </menu>
+    </item>
+
+</menu>
